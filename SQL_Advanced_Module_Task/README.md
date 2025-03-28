@@ -44,7 +44,7 @@ A screenshot of the Looker Studio visualization is included for reference.
 
 ### Screenshot of Looker Studio Visualization
 
-![Email Activity Chart](SQL_Advanced_Module_Task/email_activity_charts.png)
+![Email Activity Chart](./email_activity_charts.png)
 
 The screenshot illustrates the trends in email activity and highlights top-performing countries based on the metrics.
 
