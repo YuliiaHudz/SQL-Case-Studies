@@ -46,3 +46,5 @@ In this task, we calculate the total revenue, revenue from mobile devices, and r
 
 This query helps you understand the revenue distribution by continent and device type, while also providing valuable insights into account and session activity for each continent.
 
+### SQL File
+You can find the SQL script for this task here: [Revenue_by_Device_and_Continent_with_Sessions.sql](./Revenue_by_Device_and_Continent_with_Sessions.sql)
