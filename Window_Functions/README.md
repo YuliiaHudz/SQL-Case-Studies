@@ -1,10 +1,10 @@
-# Emails Sent by Month & Prediction Fulfillment - SQL Tasks 
+# Emails Sent by Month & Prediction Fulfillment - SQL Tasks
 
 This repository contains SQL scripts for analyzing email activity and revenue prediction fulfillment using **window functions**.
 
 ---
 
-## Emails Sent by Month - SQL Task 
+## Emails Sent by Month - SQL Task
 
 This SQL script calculates the percentage of emails sent per account by month. It uses **window functions** to partition the data by month and compute the percentage of emails sent by each account relative to the total sent emails for that month.
 
@@ -35,9 +35,12 @@ In this task, we calculate the percentage of emails sent each month, with the re
 3. **Result Formatting**:
    - Displays the month, account ID, the percentage of emails sent by the account in that month, and the first and last sent dates.
 
+### SQL File Link
+You can find the SQL script for this task [here](./emails_sent_by_month.sql).
+
 ---
 
-## Prediction Fulfillment - SQL Task 
+## Prediction Fulfillment - SQL Task
 
 This SQL script analyzes how well revenue predictions align with actual revenue over time. It calculates cumulative revenue and predicted revenue and computes the percentage of actual revenue compared to predicted revenue.
 
@@ -66,4 +69,6 @@ The query calculates how much of the predicted revenue was fulfilled by actual r
 3. **Fulfillment Percentage Calculation**:
    - Computes `(SUM(revenue) OVER (ORDER BY date) * 100.0 / SUM(predict_revenue) OVER (ORDER BY date))` to determine the fulfillment percentage.
 
-This query helps assess the accuracy of revenue forecasting over time.
+### SQL File Link
+You can find the SQL script for this task [here](./prediction_fulfillment.sql).
+
