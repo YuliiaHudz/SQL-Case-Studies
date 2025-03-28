@@ -30,7 +30,7 @@ The SQL query processes the data in several steps:
 
 ### SQL Code File
 
-The SQL code for this task is located in the file [**SQL_Advanced_Module_Task.sql**](SQL_Advanced_Module_Task/SQL_Advanced_Module_Task.sql) 
+The SQL code for this task is located in the file [SQL_Advanced_Module_Task.sql](SQL_Advanced_Module_Task/SQL_Advanced_Module_Task.sql) 
 This file contains the SQL query that performs the analysis.
 
 ### 2. **Looker Studio Visualization**
