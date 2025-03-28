@@ -35,8 +35,10 @@ In this task, we calculate the percentage of emails sent each month, with the re
 3. **Result Formatting**:
    - Displays the month, account ID, the percentage of emails sent by the account in that month, and the first and last sent dates.
 
-### SQL File Link
-You can find the SQL script for this task [here](./Window_Functions/emails_sent_by_month.sql).
+### SQL Code File
+
+The SQL code for this task is located in the file [**Emails_Sent_By_Month.sql**](./Emails_Sent_By_Month.sql) 
+This file contains the SQL query that performs the analysis.
 
 ---
 
@@ -69,5 +71,7 @@ The query calculates how much of the predicted revenue was fulfilled by actual r
 3. **Fulfillment Percentage Calculation**:
    - Computes `(SUM(revenue) OVER (ORDER BY date) * 100.0 / SUM(predict_revenue) OVER (ORDER BY date))` to determine the fulfillment percentage.
 
-### SQL File Link
-You can find the SQL script for this task [here](./Window_Functions/prediction_fulfillment.sql).
+### SQL Code File
+
+The SQL code for this task is located in the file [**Prediction_Fulfillment.sql**](./Prediction_Fulfillment.sql) 
+This file contains the SQL query that performs the analysis.
